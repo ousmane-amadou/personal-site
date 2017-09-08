@@ -1,0 +1,19 @@
+{
+  "name": "osam",
+  "version": "1.0.0",
+  "description": "My Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ousmane-amadou/osam.git"
+  },
+  "author": "Ousmane Amadou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ousmane-amadou/osam/issues"
+  },
+  "homepage": "https://github.com/ousmane-amadou/osam#readme"
+}
