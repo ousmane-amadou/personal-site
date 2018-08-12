@@ -11,7 +11,7 @@
 <meta property='og:description' content='Minimalist theme for Hugo'>
 <meta property='og:url' content='http://www.example.com/'>
 <meta property='og:site_name' content='Minimo'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content='2018-07-27T22:39:39-04:00'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='website'><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.45.1" />
 
@@ -68,17 +68,21 @@
     </label></form>
 
 </section>
-<section class='widget widget-taxonomy_cloud sep-after'>
+<section class='widget widget-sidebar_menu sep-after'><nav id='sidebar-menu' class='menu sidebar-menu' aria-label='Sidebar Menu'>
+    <div class='container'>
+      <ul><li class='item current'>
+  <a aria-current='page' href='/'>Home</a></li><li class='item'>
+  <a href='/typography/'>About</a></li></ul>
+    </div>
+  </nav>
+
+</section><section class='widget widget-taxonomy_cloud sep-after'>
   <header>
     <h4 class='title widget-title'>Tags</h4>
   </header>
 
   <div class='container list-container'>
-  <ul class='list taxonomy-cloud'><li>
-        <a href='/tags/tag1' style='font-size:1em'>Tag1</a>
-      </li><li>
-        <a href='/tags/tag2' style='font-size:1em'>Tag2</a>
-      </li></ul>
+  <ul class='list taxonomy-cloud'><span>Not a single Tag!</span></ul>
 </div>
 
 
@@ -112,8 +116,12 @@
 </svg>
 </span>
 </button>
-    <ul><li class='item'>
-        <a href='https://github.com/MunifTanjim/minimo'>Repo</a>
+    <ul><li class='item current'>
+        <a aria-current='page' href='/'>Home</a>
+      </li><li class='item'>
+        <a href=''>Menu item 1</a>
+      </li><li class='item'>
+        <a href=''>Menu item 2</a>
       </li></ul>
   </div>
 </nav>
@@ -135,38 +143,6 @@
   </header>
 
   <ul class='list'>
-  
-    <li class='item'>
-  <div class='meta'>
-    <span>
-  <span class='screen-reader-text'>Posted on </span>
-  <time datetime='2018-07-27T22:39:39-04:00'>2018, Jul 27</time>
-</span>
-
-  </div>
-  <header class='item-header'>
-    <h3 class='item-title'>
-      <a href='/dir1/a/'>A</a>
-    </h3>
-  </header>
-</li>
-
-  
-    <li class='item'>
-  <div class='meta'>
-    <span>
-  <span class='screen-reader-text'>Posted on </span>
-  <time datetime='2018-07-27T22:39:39-04:00'>2018, Jul 27</time>
-</span>
-
-  </div>
-  <header class='item-header'>
-    <h3 class='item-title'>
-      <a href='/dir3/dir2/c/'>C</a>
-    </h3>
-  </header>
-</li>
-
   
   </ul>
 </section>
