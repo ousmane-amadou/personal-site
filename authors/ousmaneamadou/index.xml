@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ousmaneamadou on Minimo</title>
+    <link>http://www.example.com/authors/ousmaneamadou/</link>
+    <description>Recent content in Ousmaneamadou on Minimo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 27 Jul 2018 22:39:39 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.example.com/authors/ousmaneamadou/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A</title>
+      <link>http://www.example.com/dir1/a/</link>
+      <pubDate>Fri, 27 Jul 2018 22:39:39 -0400</pubDate>
+      
+      <guid>http://www.example.com/dir1/a/</guid>
+      <description>This is a draft.</description>
+    </item>
+    
+    <item>
+      <title>B</title>
+      <link>http://www.example.com/dir1/</link>
+      <pubDate>Fri, 27 Jul 2018 22:39:39 -0400</pubDate>
+      
+      <guid>http://www.example.com/dir1/</guid>
+      <description>This is not a draft.</description>
+    </item>
+    
+  </channel>
+</rss>
