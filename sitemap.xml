@@ -3,35 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.example.com/</loc>
+    <loc>https://www.osam.me/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/typography/</loc>
+    <loc>https://www.osam.me/typography/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/authors/</loc>
+    <loc>https://www.osam.me/authors/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/categories/</loc>
+    <loc>https://www.osam.me/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/page/</loc>
+    <loc>https://www.osam.me/page/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/series/</loc>
+    <loc>https://www.osam.me/series/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/</loc>
+    <loc>https://www.osam.me/tags/</loc>
     <priority>0</priority>
   </url>
   
