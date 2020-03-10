@@ -6,3 +6,14 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #cc4b37,
 );
+
+.page-container {
+  margin-left: $global-margin * 3;
+  margin-right: $global-margin * 3;
+  padding-top: $global-padding * 2;
+}
+
+.nav-container {
+  @include top-bar-container;
+  padding: 0.5rem 2rem;
+}
