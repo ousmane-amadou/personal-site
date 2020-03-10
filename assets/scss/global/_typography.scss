@@ -1,1 +1,6 @@
-$font-family-monospace: Chivo;
+@font-face {
+    font-family: Chivo;
+    src: url('data/chivo-regular.ttf');
+}
+$body-font-family: Chivo;
+$header-font-family: Chivo;
