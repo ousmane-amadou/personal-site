@@ -1,6 +1,2 @@
-# Compiled directory and file
-build/
-bundle.js
-
-# Dependency directories
+dist/
 node_modules/
