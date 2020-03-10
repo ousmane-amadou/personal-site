@@ -4,7 +4,6 @@
 @import 'foundation';
 @import 'motion-ui';
 
-@import 'global/default';
 
 // Global styles
 @include foundation-global-styles;
@@ -66,5 +65,4 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-// Custom styles
-@import 'global/default'
+@import 'global/default';
