@@ -1,6 +1,3 @@
-$topbar-background: white;
-$topbar-padding: 1rem 2rem;  
-
 // TODO: Switch color-palette to brand colors.
 $foundation-palette: (
   primary: #1779ba, 
@@ -10,13 +7,14 @@ $foundation-palette: (
   alert: #cc4b37,
 );
 
-.page-container {
-  margin-left: $global-margin * 3;
-  margin-right: $global-margin * 3;
-  padding-top: $global-padding * 2;
+body {
+  height: 100vh;
 }
 
-.nav-bar {
-  @include top-bar-container;
+.page-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  padding: $global-padding;
 }
 

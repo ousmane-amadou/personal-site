@@ -4,6 +4,8 @@
 @import 'foundation';
 @import 'motion-ui';
 
+@import 'components/navbar';
+@import 'global/default';
 
 // Global styles
 @include foundation-global-styles;
@@ -65,4 +67,4 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-@import 'global/default';
+
