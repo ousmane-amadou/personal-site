@@ -3,6 +3,7 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import 'global/default';
 
 // Global styles
 @include foundation-global-styles;
@@ -23,6 +24,7 @@
 @include foundation-slider;
 @include foundation-switch;
 @include foundation-table;
+
 // Basic components
 @include foundation-badge;
 @include foundation-breadcrumbs;
@@ -62,3 +64,5 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+@include 
