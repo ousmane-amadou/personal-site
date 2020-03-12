@@ -1,0 +1,32 @@
+{
+    "project_1": {
+        "name": "Rabbithole", 
+        "season": "Fall 19 - Now",
+        "description": "",
+        "tags": ["HTML", "CSS", "react", "Chrome", "UX Design"]
+    }, 
+    "project_2": {
+        "name": "Text Time", 
+        "season": "Winter 18",
+        "description": "",
+        "tags": ["C#", "Python", "Unity3D"]
+    },
+    "project_3": {
+        "name": "Shoppr", 
+        "season": "Fall 18",
+        "description": "",
+        "tags": ["UX Design", "UI Design"]
+    },
+    "project_4": {
+        "name": "Gemmelium", 
+        "season": "Fall 16",
+        "description": "",
+        "tags": ["UX Design", "UI Design"]
+    },
+    "project_5": {
+        "name": "Progamming Challenges Archive", 
+        "season": "Summer 15 - Now",
+        "description": "",
+        "tags": ["UX Design", "UI Design"]
+    }
+}
