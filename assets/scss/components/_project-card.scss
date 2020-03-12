@@ -1,9 +1,16 @@
-.card {
+.project-card {
+    @include card-container(
+        $white, $black, 0, 0, 0
+    );
     width: auto;
+    text-align: center;
 }
 
-.card .card-divider { 
+.card-thumbnail { 
     height: 200px;
+    width: inherit;
     background-color: aliceblue;
+    border-radius: 2rem;
 }
+
 
