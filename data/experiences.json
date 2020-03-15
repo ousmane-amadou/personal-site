@@ -1,19 +1,17 @@
 {
     "exp_1": {
-        "name": "Freelance Web Development", 
+        "name": "Freelance Development", 
         "season": "Fall 19 - Now",
         "description": ""
     }, 
     "exp_2": {
         "name": "Weav", 
-        "season": "Winter 18",
-        "description": "",
-        "tags": ["C#", "Python", "Unity3D"]
+        "season": "Fall 17 - Winter 18",
+        "description": ""
     },
     "exp_3": {
         "name": "CSEC", 
-        "season": "Fall 17",
-        "description": "",
-        "tags": ["UX Design", "UI Design"]
+        "season": "Fall 17 - Winter 18",
+        "description": ""
     }
 }
