@@ -1,37 +1,15 @@
 <div class="page-container">
-    <div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-2">
-      <div class="cell">
-        <div class="card" style="width: auto;">
-            <div class="card-divider" 
-                 style="height: 200px; background-color: aliceblue;">
-            </div>
-            <div class="card-section">
-              <h4> Freelance Web Development </h4>
-              <p>  Fall 19 - Now </p>
-            </div>
-          </div>
-      </div>
-      <div class="cell">
-        <div class="card" style="width: auto;">
-            <div class="card-divider" 
-                 style="height: 200px; background-color: aliceblue;">
-            </div>
-            <div class="card-section">
-              <h4> Weav </h4>
-              <p>  Fall 17, Winter 18 </p>
-            </div>
-          </div>
-      </div>
-      <div class="cell">
-        <div class="card" style="width: auto;">
-            <div class="card-divider" 
-                 style="height: 200px; background-color: aliceblue;">
-            </div>
-            <div class="card-section">
-              <h4> CSEC </h4>
-              <p>  Fall 17, Winter 18 </p>
-            </div>
-          </div>
+  <div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-2">
+    {{#each experiences}}
+    <div class="cell">
+      <div class="project-card">
+        <a href="#"> <div class="card-thumbnail"> </div> </a>
+        <div class="card-section">
+          <h4> {{this.name}} </h4>
+          <p> {{this.season}} </p>
+        </div>
       </div>
     </div>
+    {{/each}}
   </div>
+</div>
