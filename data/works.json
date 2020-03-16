@@ -26,8 +26,8 @@
     "project_4": {
         "name": "Gemmelium", 
         "season": "Fall 16",
-        "thumbnail_url": "../assets/img/",
-        "thumbnail_background": "black",
+        "thumbnail_url": "../assets/img/gemmelium.png",
+        "thumbnail_background": "#E28B8B",
         "description": "",
         "tags": ["UX Design", "UI Design"]
     },
