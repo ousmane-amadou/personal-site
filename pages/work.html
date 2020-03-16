@@ -3,7 +3,9 @@
     {{#each works}}
     <div class="cell">
       <div class="project-card">
-        <a href="#"> <div class="card-thumbnail"> </div> </a>
+        <a style="background-color: {{this.thumbnail_background}}" class="card-thumbnail" href="#">
+          <img src="{{this.thumbnail_url}}" alt="{{this.name}}">
+        </a>
         <div class="card-section">
           <h5> {{this.name}} </h5>
           <h5> <small> {{this.season}} </small> </h5>

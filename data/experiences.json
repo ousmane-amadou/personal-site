@@ -2,16 +2,22 @@
     "exp_1": {
         "name": "Freelance Development", 
         "season": "Fall 19 - Now",
+        "thumbnail_url": "../assets/img/", 
+        "thumbnail_background": "black",       
         "description": ""
     }, 
     "exp_2": {
         "name": "Weav", 
         "season": "Fall 17 - Winter 18",
+        "thumbnail_url": "../assets/img/weav.png",
+        "thumbnail_background": "white",
         "description": ""
     },
     "exp_3": {
         "name": "CSEC", 
         "season": "Fall 17 - Winter 18",
+        "thumbnail_url": "../assets/img/csec.png",
+        "thumbnail_background": "rgb(42, 49, 63)",
         "description": ""
     }
 }
