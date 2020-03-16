@@ -1,6 +1,13 @@
 @font-face {
     font-family: Chivo;
-    src: url('assets/chivo-regular.ttf');
+    src: url('{{root}}/Chivo-Regular.ttf');
+    font-weight: bold;
 }
+
 $body-font-family: Chivo;
 $header-font-family: Chivo;
+
+
+.menu li a {
+    color: black;
+}

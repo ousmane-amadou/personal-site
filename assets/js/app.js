@@ -14,4 +14,10 @@ require('foundation-sites');
 //import './lib/foundation-explicit-pieces';
 
 
+
+
 $(document).foundation();
+
+// $(document).on('click', 'ul li', function() {
+//     $(this).addClass('is-active')
+// }).foundation() 

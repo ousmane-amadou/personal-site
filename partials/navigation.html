@@ -1,11 +1,15 @@
 <div class="nav-bar">
-    <div class="top-bar-left">
-      <div> <a href="/">Logo </a> </div>
-    </div>
-    <div class="top-bar-right">
-      <ul class="menu">
-        <li><a href="work.html">Work</a></li>
-        <li><a href="experiences.html">Experiences</a></li>
-      </ul>
-    </div>
+  <div class="top-bar-left">
+    <div> <a href="/">Logo </a> </div>
   </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      {{#each nav}}
+      {{#nav-active}}
+      {{../page}}&{{this.url}}
+      {{/nav-active}}
+      <a href="{{this.url}}.html">{{this.title}}</a></li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
