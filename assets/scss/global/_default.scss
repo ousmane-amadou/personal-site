@@ -17,3 +17,20 @@ body {
   max-width: 940px;
   padding: $global-padding;
 }
+
+
+.social {
+  position: absolute;
+  bottom: 5vh;
+  margin-left: 2px;
+}
+
+.social .header {
+  font-size: 16px;
+  margin-bottom: 0.25em;
+}
+
+.social .icons a {
+  font-size: 32px;
+  padding-right: 5px;
+}
