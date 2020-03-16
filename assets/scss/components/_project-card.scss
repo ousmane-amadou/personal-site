@@ -4,20 +4,32 @@
     );
     width: auto;
     text-align: center;
-    .card-section {
-        padding-top: 16px;
-        padding-bottom: 1rem;
-    }
+    padding: 1rem;
+
     h5 {
         margin: 0;
     }
+
+    .card-section {
+        padding-top: 16px;
+        margin-bottom: -32px;
+    }
+    
+    .card-thumbnail { 
+        height: 200px;
+        width: inherit;
+        background-color: grey;
+        border-radius: 16px;
+        transition: all 0.5s ease;
+    }
+
+    .card-thumbnail:hover { 
+        transform: scaleX(1.05) scaleY(1.05);
+        box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.16);
+    }
+
 }
 
-.card-thumbnail { 
-    height: 200px;
-    width: inherit;
-    background-color: aliceblue;
-    border-radius: 2rem;
-}
+
 
 
