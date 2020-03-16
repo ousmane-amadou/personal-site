@@ -4,18 +4,20 @@
 
 .orbit {
   height: inherit !important;
+  padding: 2px;
+  transform: translateX(-20px);
 }
 
 .orbit-container {
-  min-height: 250px !important;
+  min-height: 250px;
+
 }
 
 .orbit-bullets {
-  position: static !important;
-  bottom: 10px;
+  bottom:-10px;
 }
 
-.reveal {
+#project-description {
   border-radius: 1em; 
   width: 800px;
 }

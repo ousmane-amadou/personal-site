@@ -10,15 +10,11 @@
                     <li class="is-active orbit-slide">
                         <img class="orbit-image" src="assets/img/weav.png" alt="Space">
                     </li>
+                    {{#each img_urls}}
                     <li class="orbit-slide">
-                        <img class="orbit-image" src="assets/img/weav.png" alt="Space">
+                        <img class="orbit-image" src="{{this}}" alt="Space">
                     </li>
-                    <li class="orbit-slide">
-                        <img class="orbit-image" src="assets/img/weav.png" alt="Space">
-                    </li>
-                    <li class="orbit-slide">
-                        <img class="orbit-image" src="assets/img/weav.png" alt="Space">
-                    </li>
+                    {{/each}}
                 </ul>
             </div>
             <nav class="orbit-bullets">
