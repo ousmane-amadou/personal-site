@@ -4,13 +4,13 @@
         "season": "Fall 19 - Now",
         "thumbnail_url": "../assets/img/rabbithole.png",
         "thumbnail_background": "black",
-        "description": "",
+        "description": "Rabbithole is a chrome-extension.",
         "tags": ["HTML", "CSS", "react", "Chrome", "UX Design"]
     }, 
     "project_2": {
         "name": "Text Time", 
         "season": "Winter 18",
-        "thumbnail_url": "../assets/img/",
+        "thumbnail_url": "../assets/img/rabbithole.png",
         "thumbnail_background": "black",
         "description": "",
         "tags": ["C#", "Python", "Unity3D"]
@@ -18,7 +18,7 @@
     "project_3": {
         "name": "Shoppr", 
         "season": "Fall 18",
-        "thumbnail_url": "../assets/img/",
+        "thumbnail_url": "../assets/img/rabbithole.png",
         "thumbnail_background": "black",
         "description": "",
         "tags": ["UX Design", "UI Design"]
@@ -34,7 +34,7 @@
     "project_5": {
         "name": "Programming Challenges", 
         "season": "Summer 15 - Now",
-        "thumbnail_url": "../assets/img/",
+        "thumbnail_url": "../assets/img/rabbithole.png",
         "thumbnail_background": "black",
         "description": "",
         "tags": ["UX Design", "UI Design"]
