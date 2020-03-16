@@ -6,7 +6,7 @@
         "thumbnail_background": "black",
         "description": "Rabbithole is a chrome-extension.",
         "tags": ["HTML", "CSS", "react", "Chrome", "UX Design"],
-        "img_urls": ["../assets/img/rabbithole.png", "../assets/img/gemmelium.png", "../assets/img/gemmelium.png"]
+        "img_urls": ["../assets/img/rabbithole.png", "../assets/img/gemmelium.png", "../assets/img/weav.png"]
     }, 
     "project_2": {
         "name": "Text Time", 
